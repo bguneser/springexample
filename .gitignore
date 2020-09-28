@@ -1,0 +1,19 @@
+# Project exclude paths
+/spring-boot-aop/target/
+/spring-boot-dockerization/target/
+/spring-boot-events/target/
+/spring-boot-flyway/target/
+/spring-boot-graphql/target/
+/spring-boot-gridfs-fileupload/target/
+/spring-boot-kafka/target/
+/spring-boot-pagination/target/
+/spring-boot-rabbitmq/target/
+/spring-boot-rest-template/target/
+/spring-boot-versioning/target/
+/spring-boot-webflux-mongo/target/
+/spring-boot-websocket/target/
+/spring-datajpa-postgresql/target/
+/spring-elastic-search/target/
+/spring-mongo-restapi/target/
+/spring-redis-cache/target/
+/springboot-api-doc/target/

@@ -1,0 +1,25 @@
+#,client'a Geri donus nesnelerini type olarak tanımlıyorum
+type Vehicle {
+    id: ID!,
+    type: String!,
+    modelCode: String,
+    brandName: String,
+    launchDate: String
+}
+#Sunucunun kabul ettigi inputlaarı input keywordu ile tanımlıyorum
+#Property'nin başına ünlem işareti koymak onu zorunlu kılar
+
+input VehicleDto {
+    type: String!,
+    modelCode: String!,
+    brandName: String
+}
+
+type Query {
+    getVehicles(type: String):[Vehicle]
+    getById(id: ID):Vehicle
+}
+
+type Mutation {
+    createVehicle(vehicle: VehicleDto):Vehicle
+}
